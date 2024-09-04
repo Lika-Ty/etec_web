@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First Project</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <header class="nav-section">
+      <nav class="nav-container">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li>
+            <a href="#">Category</a>
+            <i class="fa-solid fa-caret-down"></i>
+            <ul class="dropdown">
+              <li><a href="#">Places</a></li>
+              <li><a href="#">Food</a></li>
+              <li><a href="#">Dessert</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Block</a></li>
+          <li><a href="#">Feedback</a></li>
+        </ul>
+      </nav>
+      <div class="mode-container">
+        <i class="fa-solid fa-moon"></i>
+        <p>Dark mode</p>
+      </div>
+    </header>
+    <!-- end of navigation bar -->
+
+    <div class="logo-search-container">
+      <h2>LOGO.</h2>
+      <div class="input-container">
+        <input type="text" placeholder="Search here" />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div class="account-manager">
+        <p>Login</p>
+        <i class="fa-solid fa-user"></i>
+      </div>
+    </div>
+
+    <!-- hero section -->
+    <div class="hero-container" data-aos="fade-up" data-aos-duration="1000">
+      <div class="hero-text" data-aos="fade-right" data-aos-duration="1000">
+        <h1>Explore the best place in Cambodia.</h1>
+        <p>
+          Enchant your journy, planning and expolore the best place in
+          cambodia....
+        </p>
+        <button class="btn-explore">
+          Explore now
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+      <div class="hero-image">
+        <img
+          src="https://cdn.britannica.com/35/171035-050-8423095A/Angkor-Wat-Siemreab-Cambodia.jpg"
+          alt=""
+        />
+        <img
+          src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0c/0b/c0/10.jpg"
+          alt=""
+        />
+        <img
+          src="https://www.nadovatours.com/uploads/PhotoBlog/Cambodia/Ta-Prohm-Temples-Cambodia-Holidays.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+    <!-- end of hero section -->
+
+    <div class="general-section">
+      <h3>Special features for the best and exciting Exploration</h3>
+      <article class="general-cart">
+        <div class="cart-one">
+          <img src="img/place.png" alt="" />
+          <h4>Best places to visit</h4>
+          <p>
+            We provide the information about the best places for visit in
+            cambodia.
+          </p>
+          <div class="cart-icon">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="cart-one">
+          <img src="img/food.png" alt="" />
+          <h4>Delicious Cambodia foods</h4>
+          <p>Cambodia have money delicious foods that should taste.</p>
+          <div class="cart-icon">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="descrip-section">
+      <h3>Trending places and food in cambodia</h3>
+      <div class="btn-container">
+        <ul>
+          <li><a href="#">All</a></li>
+          <li><a href="#">Places</a></li>
+          <li><a href="#">Food</a></li>
+          <li><a href="#">Desserts</a></li>
+        </ul>
+      </div>
+      <div class="img-container">
+        <img src="img/images.jpg" alt="" />
+        <img src="img/images.jpg" alt="" />
+        <img src="img/images.jpg" alt="" />
+      </div>
+
+      <h3>Places in Cambodia</h3>
+      <div class="img-container">
+        <img src="img/images.jpg" alt="" />
+        <img src="img/images.jpg" alt="" />
+        <img src="img/images.jpg" alt="" />
+      </div>
+
+      <button class="btn-seeall">
+        See all
+        <i class="fa-solid fa-arrow-right"></i>
+      </button>
+
+      <h3>Food in cambodia</h3>
+      <div class="img-container">
+        <img src="img/images.jpg" alt="" />
+        <img src="img/images.jpg" alt="" />
+        <img src="img/images.jpg" alt="" />
+      </div>
+
+      <button class="btn-seeall">
+        See all
+        <i class="fa-solid fa-arrow-right"></i>
+      </button>
+    </div>
+
+    <footer class="footer-section">
+      <div class="foot-logo">
+        <h2>LOGO.</h2>
+      </div>
+      <div class="foot-link">
+        <a href="#">Home</a>
+        <a href="#">Places</a>
+        <a href="#">Foods</a>
+      </div>
+
+      <div class="foot-social">
+        <h3>Socials</h3>
+        <div class="social-icon">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-tiktok"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+      </div>
+    </footer>
+
+    <!-- link aos animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
